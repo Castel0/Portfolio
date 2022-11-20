@@ -1,26 +1,26 @@
 @font-face {
   font-family: SpaceGrotesk-bold;
-  src: url(./Font/SpaceGrotesk-Bold.ttf);
+  src: url(.SpaceGrotesk-Bold.ttf);
 }
 @font-face {
   font-family: SpaceGrotesk-light;
-  src: url(./Font/SpaceGrotesk-Light.ttf);
+  src: url(.SpaceGrotesk-Light.ttf);
 }
 @font-face {
   font-family: SpaceGrotesk-medium;
-  src: url(./Font/SpaceGrotesk-Medium.ttf);
+  src: url(.SpaceGrotesk-Medium.ttf);
 }
 @font-face {
   font-family: SpaceGrotesk-regular;
-  src: url(./Font/SpaceGrotesk-Regular.ttf);
+  src: url(.SpaceGrotesk-Regular.ttf);
 }
 @font-face {
   font-family: SpaceGrotesk-semiBold;
-  src: url(./Font/SpaceGrotesk-SemiBold.ttf);
+  src: url(.SpaceGrotesk-SemiBold.ttf);
 }
 @font-face {
   font-family: SpaceGrotesk-variable;
-  src: url(./Font/SpaceGrotesk-VariableFont_wght.ttf);
+  src: url(.SpaceGrotesk-VariableFont_wght.ttf);
 }
 * {
   transition: 1s ease-in-out;
