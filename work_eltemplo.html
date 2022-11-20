@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/758a33ab69.js" crossorigin="anonymous"></script>
+  <title>El Templo Estudio</title>
+
+</head>
+<body>
+  <header>
+    <div class="headerLogo">
+      <p class="adriel">Adriel</p>
+      <p class="castelo">Castelo</p>
+    </div>
+  
+    <div class="headerNav">
+      <a href="./index.html#about">About</a>
+      <a href="./index.html#skills">Skills</a>
+      <a href="./index.html#works">Works</a>
+      <!-- <a href="#companies">Companies</a> -->
+    </div>
+    <button class="switch" id="switch">
+      <span><i class="fa-solid fa-sun"></i></span>
+      <span><i class="fa-solid fa-moon"></i></span>
+    </button>
+  </header>
+
+  <div class="sideBar">
+    <p class="socialMedia">
+      <a class="instagram" href="https://www.instagram.com/adriel.castelo/" target="blank"><i class="fa-brands fa-instagram"></i></a>
+      <a class="linkedin" href="https://www.linkedin.com/in/adriel-castelo/" target="blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a class="twitter" href="" target="blank"><i class="fa-brands fa-twitter"></i></a>
+    </p>
+  </div>
+  <div class="workContainer">
+    <div class="subTitle">
+      <h4>
+        EL TEMPLO ESTUDIO
+      </h4>
+    </div>
+
+    <p class="presentation">
+
+        <b>EL TEMPLO ESTUDIO</b> es una productora de medios audiovisuales. <br>
+        Solicitaron una pagina con transiciones la cual le permita mostrar diferentes trabajos realizados. <br>
+        Para lograr eso utilice HTML, CSS y JavaScript.
+    </p>
+    
+    <div class="sectionContainer">
+      <div class="subTitle"><h4>INICIO</h4></div>
+      <div class="presentation">
+        <p>
+          La pantalla de inicio esta conformada por el logo de la productora como
+          background. <br>
+          Un barra de navegacion arriba a la derecha la cual esta fijada y permite desplazarte hacia
+          las pantallas <b>"¿Quienes somos?"</b>, <b>"Imagenes"</b>, <b>"Videos"</b> y <b>"Contactanos"</b>. <br>
+          En el extremo derecho, centrado verticalmente se encuentra un sideBar fijado con la misma función la cual,
+          al desplazar el cursor por encima nos informa hacia que pantalla nos direccionaria. <br>
+          Abajo en el centro hay una flecha blanca que al presionarla desplaza la pantalla hacia la proxima seccion.
+          En este caso seria hacia el "¿Quienes somos?". <br>
+          La pagina fue programada para responder al uso de las flechas del teclado. Si el usuario presionara la flecha
+          hacia abajo de su teclado se desplazaria hacia la siguiente seccion por ejemplo.
+        </p>
+      </div>
+      <div class="sectionImg">
+        <img src="./eltemploestudio.vercel.app.jpg" alt="img">
+      </div>
+    </div>
+
+    <div class="sectionContainer">
+      <div class="subTitle"><h4>¿QUIENES SOMOS?</h4></div>
+      <div class="presentation">
+        <p>
+          En esta pantalla querian que la informacion no sea muy
+          detallada, solo mencionar los diferentes servicios que brindan
+          y en el caso de que el posible cliente quiera mas información
+          se contacte directamente con ellos.
+        </p>
+      </div>
+      <div class="sectionImg">
+        <img src="./quienesSomos.jpg" alt="img">
+      </div>
+    </div>
+    <div class="sectionContainer">
+      <div class="subTitle"><h4>IMAGENES</h4></div>
+      <div class="presentation">
+        <p>
+          Al no querer cargar de muchas imagenes la pagina solo pusieron diez.
+          Pidieron que sean en casi pantalla completa y que el usuario tenga la posibilidad de dezplazarse. <br>
+          Para eso se programo el slide lateral el cual responde a las flechas del teclado del usuario
+          y al click en pantalla.
+        </p>
+      </div>
+      <div class="sectionImg">
+        <img src="./imagenes_eltemplo.jpg" alt="img">
+      </div>
+    </div>
+    <div class="sectionContainer">
+      <div class="subTitle"><h4>VIDEOS</h4></div>
+      <div class="presentation">
+        <p>
+          Al igual que con las imagenes, solo se seleccionaron pocos videoclips y 
+          se pidio que sean casi de pantalla completa.
+        </p>
+      </div>
+      <div class="sectionImg">
+        <img src="./videos_eltemplo.jpg" alt="img">
+      </div>
+    </div>
+    <div class="sectionContainer">
+      <div class="subTitle"><h4>CONTACTANOS</h4></div>
+      <div class="presentation">
+        <p>
+          En esta seccion puse tres elementos que redireccionan, uno a la pagina
+          de la productora de Instagram, otro elemento al perfil de Facebook y otro
+          elemento que conecta directamente con el chat de whatsapp.
+        </p>
+      </div>
+      <div class="sectionImg">
+        <img src="./contactanos_eltemplo.jpg" alt="img">
+      </div>
+    </div>
+    <div class="sectionContainer">
+      <div class="subTitle"><h4>INFORMACION EXTRA</h4></div>
+      <div class="presentation">
+        <p>
+          La pagina se adapta a todo tipo de dispositivos dependiendo
+          su resolucion. <br> 
+          En el caso de dispositivos con pantallas de menores
+          dimensiones se centra el navBar, se quita el logo del extremo superior izquierdo ("ELTEMPLO"), y se coloca en el centro.<br>
+          Los servicios se acomodan en columna <br> 
+          Se esconden los puntos de navegacion laterales. <br>
+
+
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <script src="main.js"></script> 
+</body>
+</html>
